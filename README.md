@@ -13,7 +13,7 @@
   </a>
 </div>
 
-<h1 align="center">Welcome <img src="" width="25px" height="35px"></h1>
+## Welcome 
 
 
 ## I'm a Developer, Student, and geek!
