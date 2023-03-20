@@ -37,13 +37,5 @@
 - 🏅 Interested in Competitive Programming
 - 📫 How to reach me: **mahmoudhanyfathalla@gmail.com**
 
-</p>
-</p>
 
-
----
-
-<img align="center" alt="MahmoudHanyFathalla's Github Stats" src="https://github-readme-stats.vercel.app/api?usernameMahmoudHanyFathalla&show_icons=true&hide_border=true&count_private=true&bg_color=35,0b0c12,0e1535&title_color=fff&text_color=fff&icon_color=fff" />
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=MahmoudHanyFathalla&show_icons=true&locale=en&layout=compact" alt="MahmoudHanyFathalla" /></p>
 
