@@ -13,7 +13,7 @@
   </a>
 </div>
 
-<h1 align="center">Welcome <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" height="35px"></h1>
+<h1 align="center">Welcome <img src="https://i.pinimg.com/originals/0c/e1/9a/0ce19aa964fc41021224bcd59ca006a5.jpg" width="25px" height="35px"></h1>
 
 
 ## I'm a Developer, Student, and geek!
