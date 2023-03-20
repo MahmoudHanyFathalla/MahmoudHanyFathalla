@@ -3,7 +3,6 @@
 
 - 📫 How to reach me **mahmoudhanyfathalla@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1MX114s5v673tvHPXMaTOCAi6rda_PEPU/view](https://drive.google.com/file/d/1MX114s5v673tvHPXMaTOCAi6rda_PEPU/view)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
