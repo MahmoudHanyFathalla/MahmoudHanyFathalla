@@ -32,5 +32,3 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=MahmoudHanyFathalla&theme=dark&background=000000" alt="MahmoudHanyFathalla" /></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=MahmoudHanyFathalla&show_icons=true&locale=en&layout=compact" alt="MahmoudHanyFathalla" /></p>
-
