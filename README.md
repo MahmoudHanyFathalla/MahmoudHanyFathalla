@@ -4,7 +4,7 @@
   <img src="https://i.pinimg.com/originals/da/0b/d7/da0bd7fff88a3e7f8df65e96327e9d87.gif" width="500"/>
 </div>
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/mahmoud-hany-6b1690219/">
+  <a href="https://www.linkedin.com/in/mahmoud-hany-fathalla-6b1690219/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://www.instagram.com/mahmoud_hany_tms/">
