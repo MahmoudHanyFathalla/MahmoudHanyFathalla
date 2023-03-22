@@ -20,6 +20,7 @@
 
 - 🏠 Living in Cairo, Egypt
 - 🏅 Interested in Competitive Programming
+- 💻 Currently working as a software develope for RobEn's Software & AI team 
 - 📫 How to reach me: **mahmoudhanyfathalla@gmail.com**
 
 
