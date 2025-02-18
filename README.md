@@ -26,9 +26,15 @@
 
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=MahmoudHanyFathalla&rank=SSS,SS,S,AAA,AA,A&theme=dracula&column=4&margin-w=15&no-frame=true&no-bg=true&title=MultiLanguage,Commit,Repositories,Stars,Followers" alt="MahmoudHanyFathalla Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=MahmoudHanyFathalla&rank=SSS,SS,S,AAA,AA,A" alt="MahmoudHanyFathalla" />
   </a>
 </p>
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=MahmoudHanyFathalla&title=MultiLanguage" alt="MahmoudHanyFathalla Multi-Language Trophy" />
+  </a>
+</p>
+
 
 
 <h3 align="left">Languages and Tools:</h3>
