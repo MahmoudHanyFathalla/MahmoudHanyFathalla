@@ -24,8 +24,9 @@
 - 📫 How to reach me: **mahmoudhanyfathalla@gmail.com**
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=MahmoudHanyFathalla&label=Profile%20views&color=0e75b6&style=flat" alt="MahmoudHanyFathalla" /> </p>
-
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=&rank=A,AA,S,SS&theme=flat" alt=" trophies" />
+</p>
 
 
 <h3 align="left">Languages and Tools:</h3>
