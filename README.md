@@ -25,7 +25,7 @@
 
 
 <p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=&rank=A,AA,S,SS&theme=flat" alt=" trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=&theme=flat" alt=" trophies" />
 </p>
 
 
