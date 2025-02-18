@@ -13,6 +13,11 @@
   <a href ="https://github.com/MahmoudHanyFathalla">
     <img src="https://komarev.com/ghpvc/?username=MahmoudHanyFathalla&style=flat-square&color=blue" alt=""/>
   </a>
+  <p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=MahmoudHanyFathalla&title=MultiLanguage" alt="MahmoudHanyFathalla Multi-Language Trophy" />
+  </a>
+</p>
 </div>
 
 
@@ -24,11 +29,7 @@
 - 📫 How to reach me: **mahmoudhanyfathalla@gmail.com**
 
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=MahmoudHanyFathalla&title=MultiLanguage" alt="MahmoudHanyFathalla Multi-Language Trophy" />
-  </a>
-</p>
+
 
 
 
