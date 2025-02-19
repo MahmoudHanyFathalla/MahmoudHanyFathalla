@@ -23,11 +23,13 @@
 - 💻 Currently working as a software developer for RobEn's Software & AI team 
 - 📫 How to reach me: **mahmoudhanyfathalla@gmail.com**
 
+## 📊 GitHub Stats:
+
+
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MahmoudHanyFathalla&theme=github-dark-dimmed&custom_title=MahmoudHanyFathalla%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <br>
 
-## 📊 GitHub Stats:
 
 <div align="center">
 
