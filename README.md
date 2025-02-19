@@ -44,5 +44,6 @@
 
 stats             |  languages
 :-------------------------:|:-------------------------:
-![Omar's GitHub stats](https://github-readme-stats-three-plum.vercel.app/api/?username=MahmoudHanyFathalla-A&show_icons=true&theme=nightowl)  |  ![Top Langs](https://github-readme-stats-three-plum.vercel.app/api/top-langs/?username=MahmoudHanyFathalla-A&layout=compact&langs_count=15&exclude_repo=PortfolioWebsite&hide=html,ejs,shell,cmake,swift,ruby,batchfile,css,jupyter%20notebook,objective-c)
+![Mahmoud's GitHub stats](https://github-readme-stats-three-plum.vercel.app/api/?username=MahmoudHanyFathalla&show_icons=true&theme=nightowl)  |  ![Top Langs](https://github-readme-stats-three-plum.vercel.app/api/top-langs/?username=MahmoudHanyFathalla&layout=compact&langs_count=15&exclude_repo=PortfolioWebsite&hide=html,ejs,shell,cmake,swift,ruby,batchfile,css,jupyter%20notebook,objective-c)
+
 
