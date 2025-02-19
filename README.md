@@ -25,6 +25,21 @@
 
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MahmoudHanyFathalla&theme=github-dark-dimmed&custom_title=MahmoudHanyFathalla%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+<br>
+
+## 📊 GitHub Stats:
+
+<div align="center">
+
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MahmoudHanyFathalla&theme=radical">
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MahmoudHanyFathalla&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MahmoudHanyFathalla&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MahmoudHanyFathalla&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MahmoudHanyFathalla&theme=radical&utcOffset=8">
+<img height="169em" src="https://github-readme-stats.vercel.app/api?username=MahmoudHanyFathalla&theme=radical&hide_border=false&include_all_commits=false&count_private=false">
+
+</div><br>
+
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
