@@ -13,6 +13,9 @@
   <a href ="https://github.com/MahmoudHanyFathalla">
     <img src="https://komarev.com/ghpvc/?username=MahmoudHanyFathalla&style=flat-square&color=blue" alt=""/>
   </a>
+  <a href="https://github.com/MahmoudHanyFathalla">
+    <img src="https://img.shields.io/github/stars/MahmoudHanyFathalla?style=for-the-badge" alt="GitHub Stars"/>
+  </a>
 </div>
 
 
