@@ -62,3 +62,116 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Great — I’ve reviewed all the labs, and here’s how you can complete your assignment **on Ubuntu Linux**, using the methods shown in the labs:
+
+---
+
+### ✅ **Part 1: Certificate Fingerprint Verification**
+
+**Instructions:**
+1. **Pick one site from the CA lab's table**, like `www.cisco.com`.
+2. **Fetch the site’s certificate and check the fingerprint** using OpenSSL:
+
+```bash
+echo -n | openssl s_client -connect cisco.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > cisco.pem
+openssl x509 -noout -in cisco.pem -fingerprint -sha1
+```
+
+3. Compare the fingerprint with the known SHA-1 from the lab PDF:
+
+From the lab:
+```
+www.cisco.com SHA-1: E2:BD:0B:58:C6:B4:FF:91:D6:23:AB:44:0D:8F:64:76:29:4E:30:0B
+```
+
+✅ If your result matches this, no HTTPS proxy is altering your certificate. If it’s different, there might be a proxy or the cert is simply updated.
+
+📄 Document the output and write:
+- What site you used
+- The fingerprint you got
+- Whether it matched
+
+---
+
+### ✅ **Part 2: Encrypt, Zip, and Crack a File**
+
+**Steps to Follow:**
+
+1. **Create a file:**
+
+```bash
+echo "This is a secret message for the lab assignment." > message.txt
+```
+
+2. **Zip and encrypt the file:**
+
+```bash
+zip -e secret.zip message.txt
+# Use a short password like "AB12" when prompted
+```
+
+3. **Try to unzip it to verify it’s encrypted:**
+
+```bash
+unzip secret.zip
+```
+
+4. **Crack the password using fcrackzip:**
+
+Install the tool if needed:
+```bash
+sudo apt update
+sudo apt install fcrackzip
+```
+
+Then run:
+```bash
+fcrackzip -vul 1-6 secret.zip
+```
+
+📄 Document:
+- The password you used (e.g. `AB12`)
+- The command output showing the cracked password
+- How long it took
+
+---
+
+### ✅ What to Submit
+
+Create a simple text file (e.g., `assignment.txt`) and include:
+
+```
+Assignment: Certificate and Zip Cracking
+
+Part 1: Certificate Fingerprint
+- Site chosen: www.cisco.com
+- Fingerprint: [paste the result]
+- Match with known value? Yes / No
+
+Part 2: Zip Password Cracking
+- File: message.txt
+- Zip password: AB12
+- Crack command: fcrackzip -vul 1-6 secret.zip
+- Password found: AB12
+- Time taken: ~ [seconds]
+```
+
+Then zip this report and your cracked `message.txt` if requested.
+
+---
+
+Want me to generate the shell commands into a `.sh` file or help format your assignment into a neat report?
+
