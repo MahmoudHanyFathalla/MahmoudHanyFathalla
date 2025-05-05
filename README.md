@@ -1,5 +1,148 @@
 ## Unfortunately, I am a passionate Software Engineer...
 
+Great! Here's a detailed breakdown of how to complete your project on **Linux** step by step:
+
+---
+
+### 🧩 **Task 1: Image Encryption with AES-128**
+
+#### 📌 Step 1: Choose your image
+
+* Place your image in your project directory. Let's call it `input.png`.
+
+#### 📌 Step 2: Generate a 128-bit AES key
+
+```bash
+openssl rand -hex 16 > aes.key
+```
+
+#### 📌 Step 3: Encrypt using AES in 4 modes (ECB, CBC, CFB, OFB)
+
+> Note: AES in ECB mode may require padding.
+
+##### **1. ECB Mode**
+
+```bash
+openssl enc -aes-128-ecb -in input.png -out encrypted_ecb.png -K $(cat aes.key) -nosalt
+```
+
+##### **2. CBC Mode**
+
+```bash
+openssl rand -hex 16 > iv_cbc.key
+openssl enc -aes-128-cbc -in input.png -out encrypted_cbc.png -K $(cat aes.key) -iv $(cat iv_cbc.key) -nosalt
+```
+
+##### **3. CFB Mode**
+
+```bash
+openssl rand -hex 16 > iv_cfb.key
+openssl enc -aes-128-cfb -in input.png -out encrypted_cfb.png -K $(cat aes.key) -iv $(cat iv_cfb.key) -nosalt
+```
+
+##### **4. OFB Mode**
+
+```bash
+openssl rand -hex 16 > iv_ofb.key
+openssl enc -aes-128-ofb -in input.png -out encrypted_ofb.png -K $(cat aes.key) -iv $(cat iv_ofb.key) -nosalt
+```
+
+#### 📌 Step 4: View encrypted images
+
+```bash
+xdg-open encrypted_ecb.png
+xdg-open encrypted_cbc.png
+xdg-open encrypted_cfb.png
+xdg-open encrypted_ofb.png
+```
+
+---
+
+### 🧩 **Task 2: RSA Signature on Encrypted CBC Image**
+
+#### 📌 Step 1: Generate RSA keys (2048 bits)
+
+```bash
+openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:2048
+openssl rsa -pubout -in private.pem -out public.pem
+```
+
+#### 📌 Step 2: Hash the CBC encrypted image using SHA1
+
+```bash
+openssl dgst -sha1 -binary encrypted_cbc.png > hash.bin
+```
+
+#### 📌 Step 3: Create RSA Signature (sign the hash)
+
+```bash
+openssl dgst -sha1 -sign private.pem -out signature.bin encrypted_cbc.png
+```
+
+#### 📌 Step 4: Verify the signature
+
+```bash
+openssl dgst -sha1 -verify public.pem -signature signature.bin encrypted_cbc.png
+```
+
+> Output will be: `Verified OK` or `Verification Failure`
+
+---
+
+### 🌟 **Bonus: NIST Randomness Test**
+
+#### 📌 Step 1–3: Setup
+
+```bash
+sudo apt-get update -y
+sudo apt install python3-numpy python3-scipy
+sudo apt-get install python3-tk
+git clone https://github.com/stevenang/randomness_testsuite.git
+cd randomness_testsuite
+```
+
+#### 📌 Step 4: Convert image files to binary for testing
+
+Use this Python snippet:
+
+```python
+def img_to_bin(input_file, output_file):
+    with open(input_file, "rb") as f:
+        data = f.read()
+    with open(output_file, "w") as f:
+        for byte in data:
+            f.write(f"{byte:08b}")
+
+# Example usage:
+img_to_bin("input.png", "input_binary.txt")
+img_to_bin("encrypted_cbc.png", "cbc_binary.txt")
+```
+
+#### 📌 Step 5: Run the randomness test
+
+```bash
+python3 sts.py cbc_binary.txt
+```
+
+Repeat for each of:
+
+* `encrypted_ecb.png`
+* `encrypted_cfb.png`
+* `encrypted_ofb.png`
+
+#### 📌 Step 6: Comment on results
+
+You'll see pass/fail for various statistical tests. More passes = better randomness. **OFB or CFB** usually perform better than ECB.
+
+---
+
+Would you like a ready-to-run bash or Python script for automating parts of this project?
+
+
+
+
+
+
 <div id="header" align="center">
   <img src="https://i.pinimg.com/originals/da/0b/d7/da0bd7fff88a3e7f8df65e96327e9d87.gif" width="500"/>
 </div>
